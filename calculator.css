@@ -1,0 +1,51 @@
+
+  body{
+    background-image: url(/rukesh.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: center;
+    background-size: 120%
+    
+  }
+ center{
+    margin:25%;
+    border: 1px solid;
+    background-color: orchid
+  }
+    .display{
+	margin:0%;
+	padding:0%;
+	background-color:#d8bfd8;
+	color:black;
+	text-align: right;
+	width: 400px;
+	height: 90px;
+	font-size: 70px
+}
+input{
+	font-size:36px;
+	padding:20px;
+	text-align:center;
+	border-radius:20px;
+	margin-bottom:0px;
+	color: black;
+	border-style:none;
+	background-color: skyblue;
+	width: 90px;
+}
+input:hover{
+	background-color:red;
+	color: deepskyblue
+	
+}
+.rukesh:hover{
+  background-color: lightgreen;
+  color: black;
+}
+.rukesh{
+	width:85px;
+	height:70px;
+	background:black;
+	color: white;
+}
+  
