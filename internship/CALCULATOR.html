@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CALCULATOR</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body >
+  <center>
+  <form name="calcy">
+<input type="text" name="display" class="display" style="background-color: white">
+<br><br>
+<input type="button" class="rukeshbabu" value="AC" onclick="calcy.display.value=''">&nbsp;&nbsp;&nbsp;
+<input type="button" class="rukesh" value="%" onclick="calcy.display.value+='%'">&nbsp;&nbsp;
+<input type="button" class="rukesh" value="/" onclick="calcy.display.value+='/'">&nbsp;&nbsp;
+<input type="button" class="rukesh" value="X" onclick="calcy.display.value=calcy.display.value.slice(0,-1)">
+<br><br>
+<input type="button" class="rukesh" value="9" onclick="calcy.display.value+='9'">&nbsp;&nbsp;
+<input type="button" class="rukesh" value="8" onclick="calcy.display.value+='8'">&nbsp;&nbsp;
+<input type="button" class="rukesh" value="7" onclick="calcy.display.value+='7'">&nbsp;&nbsp;
+<input type="button" class="rukeshbabu" value="+" onclick="calcy.display.value+='+'">
+<br><br>
+<input type="button" class="rukesh" value="6" onclick="calcy.display.value+='6'"> &nbsp;&nbsp;
+<input type="button" class="rukesh" value="5" onclick="calcy.display.value+='5'">&nbsp;&nbsp;
+<input type="button" class="rukesh" value="4" onclick="calcy.display.value+='4'"> &nbsp;&nbsp;
+<input type="button" class="rukeshbabu" value="*" onclick="calcy.display.value+='*'">
+<br><br>
+<input type="button" class="rukesh" value="3" onclick="calcy.display.value+='3'"> &nbsp;&nbsp;
+<input type="button" class="rukesh" value="2" onclick="calcy.display.value+='2'">&nbsp;&nbsp;
+<input type="button" class="rukesh" value="1" onclick="calcy.display.value+='1'"> 
+&nbsp;&nbsp;
+<input type="button" class="rukeshbabu" value="-" onclick="calcy.display.value+='-'">
+<br><br>
+<input type="button" class="rukesh" value="0" onclick="calcy.display.value+='0'">&nbsp;&nbsp;
+<input type="button" class="rukesh" value="." onclick="calcy.display.value+='.'">&nbsp;&nbsp;
+<input type="button" class="rukesh" value="00" onclick="calcy.display.value+='00'">&nbsp;&nbsp;&nbsp;
+<input type="button" class="rukeshbabu" value="=" onclick="calcy.display.value=eval(calcy.display.value)">
+</form>
+  </center>
+</body>
+</html>
